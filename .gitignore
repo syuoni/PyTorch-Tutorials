@@ -127,4 +127,5 @@ dmypy.json
 # Data
 */data/
 */runs/
+*/models/
 */vector_cache/
