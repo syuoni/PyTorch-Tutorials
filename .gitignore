@@ -129,3 +129,4 @@ dmypy.json
 */runs/
 */models/
 */vector_cache/
+*/transformers_cache/
