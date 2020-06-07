@@ -1,6 +1,6 @@
 # PyTorch Tutorials
 
-This repo contains my implementations and notes on some tutorials for PyTorch. 
+This repo contains my implementations and notes on some tutorials for [PyTorch](https://pytorch.org/). 
 
 ## Tutorials
 1 - [Learning PyTorch](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Learning-PyTorch) follows the [Official Tutorials](https://pytorch.org/tutorials/) in the `Learning PyTorch` collection.
