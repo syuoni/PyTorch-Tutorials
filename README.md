@@ -11,3 +11,5 @@ This repo contains my implementations and notes on some tutorials for [PyTorch](
 
 4 - [Seq2Seq](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Seq2Seq) follows the [PyTorch Seq2Seq](https://github.com/bentrevett/pytorch-seq2seq) repo by [Ben Trevett](https://github.com/bentrevett). 
 
+5 - [PoS-Tagging](https://github.com/syuoni/PyTorch-Tutorials/tree/master/PoS-Tagging) follows the [PyTorch PoS Tagging](https://github.com/bentrevett/pytorch-pos-tagging) repo by [Ben Trevett](https://github.com/bentrevett). 
+
