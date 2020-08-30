@@ -125,6 +125,7 @@ dmypy.json
 .pyre/
 
 # Data
+assets/
 */data/
 */runs/
 */models/
