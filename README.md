@@ -3,6 +3,12 @@
 This repo contains my implementations and notes on some tutorials for [PyTorch](https://pytorch.org/). 
 
 ## Tutorials
+0 - Notes
+* [PyTorch Notes](https://github.com/syuoni/PyTorch-Tutorials/blob/master/%5BA%5DPyTorch-Notes.ipynb)
+* [TorchText Notes - 1](https://github.com/syuoni/PyTorch-Tutorials/blob/master/%5BB-1%5DTorchText-Notes.ipynb): Notes on `TorchText` before version 0.7, including `Field`, `Example`, `BucketIterator`, etc. 
+* [TorchText Notes - 2](https://github.com/syuoni/PyTorch-Tutorials/blob/master/%5BB-2%5DTorchText-Notes.ipynb): Notes on `TorchText` after version 0.7, which introduces a new dataset abstraction (see [TorchText Release Notes 0.7.0](https://github.com/pytorch/text/releases/tag/v0.7.0-rc3)).
+* [NN for Regression and SVM](https://github.com/syuoni/PyTorch-Tutorials/blob/master/%5BC%5DNN-for-Regression-SVM.ipynb)
+
 1 - [Learning PyTorch](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Learning-PyTorch) follows the [Official Tutorials](https://pytorch.org/tutorials/) in the `Learning PyTorch` collection. 
 * [60 Minute Blitz 1](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Learning-PyTorch/%5B1%5D60-Min-Blitz-1-PyTorch-Basics.ipynb) 
 * [60 Minute Blitz 2](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Learning-PyTorch/%5B2%5D60-Min-Blitz-2-Neural-Networks.ipynb)
@@ -13,13 +19,13 @@ This repo contains my implementations and notes on some tutorials for [PyTorch](
 2 - [Text](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Text) follows the [Official Tutorials](https://pytorch.org/tutorials/) in the `Text` collection.
 * [Intro to PyTorch](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B1%5DIntro-to-PyTorch.ipynb)
 * [Word Embeddings](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B2%5DWord-Embeddings.ipynb)
-* [LSTM and Other RNNs](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B3%5DLSTM-and-Other-RNNs.ipynb)
+* [LSTM and Other RNNs](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B3-1%5DLSTM-and-Other-RNNs.ipynb)
+* [BiLSTM CRF](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B3-2%5DBiLSTM-CRF.ipynb): Conditional Random Field (CRF) implementation. 
 * [Classifying Names](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B4%5DClassifying-Names.ipynb): Char-level one-hot embeddings into an RNN, to predict name categories. 
 * [Generating Names](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B5%5DGenerating-Names.ipynb): Char-level and category one-hot embeddings into an RNN, to recurrently predict next characters. 
 * [Translation with Seq2Seq and Attention](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B6%5DTranslation-with-Seq2Seq-Net-and-Atten.ipynb): Encoder-decoder seq2seq framework with attention. 
 * [Classifying Text with TorchText](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B7%5DClassifying-Text-with-TorchText.ipynb): An implementation of `FastText` using `TorchText`. 
 * [Translating Language with TorchText](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B8%5DTranslating-Language-with-TorchText.ipynb): Encoder-decoder seq2seq framework with attention using `TorchText`. 
-* [BiLSTM CRF](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Text/%5B9%5DBiLSTM-CRF.ipynb): Conditional Random Field (CRF) implementation. 
 
 3 - [Sentiment Analysis](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Sentiment-Analysis) follows the [PyTorch Sentiment Analysis](https://github.com/bentrevett/pytorch-sentiment-analysis) repo by [Ben Trevett](https://github.com/bentrevett). 
 * [Simple Sentiment Analysis](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sentiment-Analysis/%5B1%5DSimple-Sentiment-Analysis.ipynb): Word embeddings into an RNN, to predict a binary sentiment target. 
@@ -30,7 +36,6 @@ This repo contains my implementations and notes on some tutorials for [PyTorch](
 * [Convolutional Sentiment Analysis](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sentiment-Analysis/%5B4%5DConvolutional-Sentiment-Analysis.ipynb): Word embeddings into a CNN, to predict a binary sentiment target. 
 * [Multi-Class Sentiment Analysis](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sentiment-Analysis/%5B5%5DMulti-Class-Sentiment-Analysis.ipynb): Word embeddings into a CNN, to predict a multi-class sentiment target. 
 * [Transformers for Sentiment Analysis](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sentiment-Analysis/%5B6%5DTransformers-for-Sentiment-Analysis.ipynb): Using pre-trained `BERT` (by [huggingface](https://huggingface.co/transformers/)) as contextual word embeddings, followed by an RNN, to predict a binary sentiment target. 
-* [TorchText Notes](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sentiment-Analysis/%5BA%5DTorchText-Notes.ipynb): Details of `BucketIterator.splits`, etc. 
 
 4 - [Seq2Seq](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Seq2Seq) follows the [PyTorch Seq2Seq](https://github.com/bentrevett/pytorch-seq2seq) repo by [Ben Trevett](https://github.com/bentrevett). 
 * [Seq2Seq with Neural Networks](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Seq2Seq/%5B1%5DSeq2Seq-with-NN.ipynb): Basic encoder-decoder framework. 
@@ -40,12 +45,12 @@ This repo contains my implementations and notes on some tutorials for [PyTorch](
 * [Attention Is All You Need](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Seq2Seq/%5B6%5DAttention-Is-All-You-Need.ipynb): An implementation of `Transformer`. 
 * [Transformer by PyTorch](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Seq2Seq/%5B7%5DTransformer-by-PyTorch.ipynb): Using `torch.nn.Transformer`. 
 
-5 - [PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/tree/master/PoS-Tagging) follows the [PyTorch PoS Tagging](https://github.com/bentrevett/pytorch-pos-tagging) repo by [Ben Trevett](https://github.com/bentrevett). 
-* [BiLSTM for PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/blob/master/PoS-Tagging/%5B1%5DBiLSTM-for-PoS-Tagging.ipynb): Word embeddings into a BiLSTM, to predict the tag sequence (position by position). 
-* [Fine Tuning Pretrained Transformers for PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/blob/master/PoS-Tagging/%5B2%5DFine-Tuning-Pretrained-Transformers-for-PoS-Tagging.ipynb): Using pre-trained `BERT` (by [huggingface](https://huggingface.co/transformers/)) as contextual word embeddings, to predict the tag sequence. 
-* [BiLSTM-CRF for PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/blob/master/PoS-Tagging/%5B3%5DBiLSTM-CRF-for-PoS-Tagging.ipynb): Word embeddings into a BiLSTM followed by a CRF layer, to predict the tag sequence. 
-* [CRF by torchcrf](https://github.com/syuoni/PyTorch-Tutorials/blob/master/PoS-Tagging/%5B4%5DCRF-by-torchcrf.ipynb): Using [pytorch-crf](https://pytorch-crf.readthedocs.io/en/stable/) package for CRF. 
-* [BiLSTM for NER](https://github.com/syuoni/PyTorch-Tutorials/blob/master/PoS-Tagging/%5B5%5DBiLSTM-for-NER.ipynb): BiLSTM and BiLSTM-CRF on NER corpus. 
+5 - [Sequence-Labeling](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Sequence-Labeling) follows the [PyTorch PoS Tagging](https://github.com/bentrevett/pytorch-pos-tagging) repo by [Ben Trevett](https://github.com/bentrevett). 
+* [BiLSTM for PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sequence-Labeling/%5B1%5DBiLSTM-for-PoS-Tagging.ipynb): Word embeddings into a BiLSTM, to predict the tag sequence (position by position). 
+* [Fine Tuning Pretrained Transformers for PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sequence-Labeling/%5B2%5DFine-Tuning-Pretrained-Transformers-for-PoS-Tagging.ipynb): Using pre-trained `BERT` (by [huggingface](https://huggingface.co/transformers/)) as contextual word embeddings, to predict the tag sequence. 
+* [BiLSTM-CRF for PoS Tagging](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sequence-Labeling/%5B3%5DBiLSTM-CRF-for-PoS-Tagging.ipynb): Word embeddings into a BiLSTM followed by a CRF layer, to predict the tag sequence. 
+* [CRF by torchcrf](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sequence-Labeling/%5B4%5DCRF-by-torchcrf.ipynb): Using [pytorch-crf](https://pytorch-crf.readthedocs.io/en/stable/) package for CRF. 
+* [BiLSTM for NER](https://github.com/syuoni/PyTorch-Tutorials/blob/master/Sequence-Labeling/%5B5%5DBiLSTM-for-NER.ipynb): BiLSTM and BiLSTM-CRF on NER corpus. 
 
 6 - [Image Classification](https://github.com/syuoni/PyTorch-Tutorials/tree/master/Image-Classification) follows the [PyTorch Image Classification](https://github.com/bentrevett/pytorch-image-classification) repo by [Ben Trevett](https://github.com/bentrevett). 
 
